@@ -1,7 +1,6 @@
 
 # PTIT-Newspaper
 =======
-# Bài tập lớn – Lập trình web - E22CN02
 
 ### Trang web preview: http://theptitnewspaper.kesug.com/
 
