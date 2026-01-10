@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/globalScopeStyle.css">
+        <link rel="stylesheet" href="../css/homePage.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/styleTrangChu.css">
+        <link rel="stylesheet" href="../css/section3KhoaHocCongNghe.css">
+        <link rel="stylesheet" href="../css/stylesTrangchuThoisu.css">
+        <link rel="stylesheet" href="../css/giaoduc.css">
+        <link rel="stylesheet" href="../css/footer.css">
+    </head>
+
+    <body>
+
+        <div class="header" id="navbar-header">
+            <div class="navbar-tren">
+                <div class="navbar-tren-container">
+                    <a href="./index.html"><img src="../assets/navbarLogo.png" alt=""></a>
+    
+                    <div class="navbar-tren-tien-ich">
+                        <div  class="search-bar">
+                            <input type="text" placeholder="Search..." class="search-bar-input">
+                            <i class="bi bi-search fs-1"></i>
+                        </div>
+                        <div id="User_name">
+                            <i id="User" onclick="CongDangnhap()" class="bi bi-person-circle fs-1 ms-3"></i>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="navbar-duoi">
+                <div class="navbar-duoi-container container">
+
+                    <a href="./index.html"><img src="../assets/navbarLogoSmall.png" alt=""></a>
+
+                    <div class="navbar-duoi-line-container">
+                        <img src="../assets/navbarLine.png" alt="" class="navbarDuoiLine">
+                    </div>
+                    <div class="cat-set">
+                        <ul class="cat-set">
+                            <li class="sub-menu-parent">
+                                <a href="../html/trangDanhMuc.html"><p class="cat-set-title xa-hoi-title">Xã hội</p></a>
+                                <div class="drop-down-menu">
+                                    <ul class="sub-menu">
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Thời sự</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Giao thông</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Môi trường - Khí hậu</li></a>
+                                    </ul>
+                                </div>
+                            </li>
+    
+                            <li class="sub-menu-parent">
+                                <a href="../html/trangDanhMuc.html"><p class="cat-set-title khcn-title">Khoa học & Công nghệ</p></a>
+    
+                                <div class="drop-down-menu">
+                                    <ul class="sub-menu">
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Tin tức công nghệ</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Hoạt động công nghệ</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Tạp chí</li></a>
+                                    </ul>
+                                </div>
+                            </li>
+    
+                            <li class="sub-menu-parent">
+                                <a href="../html/trangDanhMuc.html"><p class="cat-set-title suc-khoe-title">Sức khỏe</p></a>
+    
+                                <div class="drop-down-menu">
+                                    <ul class="sub-menu">
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Dinh dưỡng</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Làm đẹp</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Y tế</li></a>
+                                    </ul>
+                                </div>
+                            </li>
+    
+                            <li class="sub-menu-parent">
+                                <a href="../html/trangDanhMuc.html"><p class="cat-set-title the-thao-title">Thể thao</p></a>
+    
+                                <div class="drop-down-menu">
+                                    <ul class="sub-menu">
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Bóng đá</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Bóng rổ</li></a>
+                                    </ul>
+                                </div>
+                            </li>
+    
+                            <li class="sub-menu-parent">
+                                <a href="../html/trangDanhMuc.html"><p class="cat-set-title giai-tri-title">Giải trí</p></a>
+    
+                                <div class="drop-down-menu">
+                                    <ul class="sub-menu">
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Âm nhạc</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Thời trang</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Điện ảnh - Truyền hình</li></a>
+                                    </ul>
+                                </div>
+                            </li>
+                            
+                            <li class="sub-menu-parent">
+                                <a href="../html/trangDanhMuc.html"><p class="cat-set-title giao-duc-title">Giáo dục</p></a>
+    
+                                <div class="drop-down-menu">
+                                    <ul class="sub-menu">
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Thi cử</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Đào tạo</li></a>
+                                        <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Học bổng - Du học</li></a>
+                                    </ul>
+                                </div>
+                            </li>
+    
+                            <li class="sub-menu-parent-quan-tri">
+                                <a href="./html/quantri.html"><p id="Quantri" class="dong">Quản trị</p></a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <i class="bi bi-list fs-2 no-select" id="burgerIcon"></i>
+                </div>
+    
+                <div id="bigMenu" class="big-menu hidden-overlay">
+    
+                    <div class="search-bar-big-container">
+                        <div class="search-bar-big">
+                            <input type="text" placeholder="Search..." class="search-bar-big-input-menu">
+                            <i class="bi bi-search fs-1"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="cat-set-big container">
+                        
+                        <ul class="cat-set-ul">
+                            <li>
+                                <a href=""><p class="cat-set-big-title xa-hoi-title">Xã hội</p></a>
+                                <ul class="sub-menu-big">
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Thời sự</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Giao thông</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Môi trường - Khí hậu</li></a>
+                                </ul>
+                            </li>
+    
+                            <li>
+                                <a href=""><p class="cat-set-big-title khcn-title">Khoa học & Công nghệ</p></a>
+                                <ul class="sub-menu-big">
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Tin tức công nghệ</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Hoạt động công nghệ</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Tạp chí</li></a>
+                                </ul>
+                            </li>
+    
+                            <li>
+                                <a href=""><p class="cat-set-big-title suc-khoe-title">Sức khỏe</p></a>
+                                <ul class="sub-menu-big">
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Dinh dưỡng</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Làm đẹp</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Y tế</li></a>
+                                </ul>
+                            </li>
+    
+                            <li>
+                                <a href=""><p class="cat-set-big-title the-thao-title">Thể thao</p></a>
+                                <ul class="sub-menu-big">
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Bóng đá</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Bóng rổ</li></a>
+                                </ul>
+                            </li>
+    
+                            <li>
+                                <a href=""><p class="cat-set-big-title giai-tri-title">Giải trí</p></a>
+                                <ul class="sub-menu-big">
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Âm nhạc</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Thời trang</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Điện ảnh - Truyền hình</li></a>
+                                </ul>
+                            </li>
+    
+                            <li>
+                                <a href=""><p class="cat-set-big-title giao-duc-title">Giáo dục</p></a>
+                                <ul class="sub-menu-big">
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Thi cử</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Đào tạo</li></a>
+                                    <a href="../html/trangDanhMuc.html"><li class="sub-menu-button">Học bổng - Du học</li></a>
+                                </ul>
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+            <div id="CongDangnhap">
+                <div style="width: 450px;height: 650px;background-color: white;margin-left: 35%;margin-top: 22px;">
+                    <div style="display: flex;border-bottom: 1px solid gray;">
+                        <img src="/assets/navbarLogo.png" style="width: 200px;margin-left: 120px;">
+                        <button onclick="DongDangnhap()" type="button" class="close closs-css" aria-label="Close" style="background-color: white;font-size: 38px;margin-left: 18%;border: none;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div style="display: flex;font-size: 25px;text-align: center;line-height: 80px;font-weight: bolder;">
+                        <div id="txt_dn" onclick="switchToLogin()" style="border-bottom: 2px solid #B32A45;width: 180px;margin-left: 45px;">Đăng nhập</div>
+                        <div id="txt_dk" onclick="switchToSignup()" style="border-bottom: 2px solid gray;width: 180px;">Đăng ký</div>
+                    </div>
+                    <br>
+                    <br>
+        
+                    <div id="Dangnhap" class="form active">
+                        <form>
+                            <label for="email1" style="font-weight: bolder; margin-left: 45px;" class="User">Email</label>
+                            <br>
+                            <input id="email1" style="border-radius: 7px; height: 40px; width: 353px; margin-left: 45px;" type="email" placeholder="Email">
+                            <br><br>
+                            <label for="password1" style="font-weight: bolder; margin-left: 45px;" class="User">Mật khẩu</label>
+                            <br>
+                            <input id="password1" style="border-radius: 7px; height: 40px; width: 353px; margin-left: 45px;" type="password" placeholder="Mật khẩu">
+                            <br><br><br>
+                            <button type="button" onclick="Login()" style="background-color: red; color: white; border-radius: 7px; height: 40px; width: 359px; margin-left: 45px; font-weight: bolder; font-size: 20px;">Đăng nhập</button>
+                        </form>
+                        <p style="margin-left: 45px;">Chưa có tài khoản? <span onclick="switchToSignup()" style="color: blue; cursor: pointer;">Đăng ký</span></p>
+                    </div>
+                    <div id="Dangky" class="form">
+                        <form>
+                            <label for="email2" style="font-weight: bolder; margin-left: 45px;" class="User">Email</label>
+                            <br>
+                            <input id="email2" style="border-radius: 7px; height: 40px; width: 353px; margin-left: 45px;" type="email" placeholder="Email">
+                            <br><br>
+                            <label for="password2" style="font-weight: bolder; margin-left: 45px;" class="User">Mật khẩu</label>
+                            <br>
+                            <input id="password2" style="border-radius: 7px; height: 40px; width: 353px; margin-left: 45px;" type="password" placeholder="Mật khẩu">
+                            <br><br><br>
+                            <button type="button" onclick="CreateLogin()" style="background-color: red; color: white; border-radius: 7px; height: 40px; width: 359px; margin-left: 45px; font-weight: bolder; font-size: 20px;">Đăng ký</button>
+                        </form>
+                        <p style="margin-left: 45px;">Đã có tài khoản? <span onclick="switchToLogin()" style="color: blue; cursor: pointer;">Đăng nhập</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="red-background"></div>
+        <!-- <div class="red-background-2"></div> -->
+
+        <div class="page-body">
+
+            <div class="tin-tuc-noi-bat container">
+                    <div class="heading">
+                        <h2>Tin tức nổi bật</h2>
+                    </div>
+
+                    <div class="big-news">
+                        <div class="big-news-image">
+                            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="4000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/bigNewsImage.png" class="d-block w-100 big-news-img"  alt="..."></a>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/bigNewsImage1.png" class="d-block w-100 big-news-img" alt="..."></a>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="4000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/bigNewsImage2.png" class="d-block w-100 big-news-img" alt="..."></a>
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+
+                        <div class="big-news-title">
+                            <a href="../html/chiTietBaiViet.html">
+                                <h2 class="big-news-heading">
+                                    Nvidia reports earnings today. 
+                                    Here's what to expect after the DeepSeek shock
+                                </h2>
+                            </a>
+
+                            <a href="../html/chiTietBaiViet.html">
+                                <p class="big-news-article">
+                                    Nvidia (NVDA) stock advanced by more than 3% ahead of the AI 
+                                    chip giant's scheduled release of its fiscal fourth-quarter 
+                                    earnings after the close today. The shares of chip designers 
+                                    Broadcom (AVGO) and Micron (MU) also gained.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="second-news">
+                        <div id="carouselExampleSlidesOnlySecondNews" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <img src="../assets/transparentPanel.png" alt="" class="transparent-panel-second-news">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="7000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/secondNewsImage.png" class="d-block w-100 image-content" alt="..."></a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="7000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/secondNewsImage1.png" class="d-block w-100 image-content" alt="..."></a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="7000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/secondNewsImage2.png" class="d-block w-100 image-content" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-news-title">
+                            <a href="../html/chiTietBaiViet.html">
+                                <h2 class="second-news-title-text">
+                                    Hà Nội công bố Môn thi thứ 3 vào lớp 10
+                                </h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="third-news">
+                        <div id="carouselExampleSlidesOnlyThirdNews" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/thirdNewsImage.png" class="d-block w-100 image-content-1" alt="..."></a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/thirdNewsImage1.png" class="d-block w-100 image-content-1" alt="..."></a>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="10000">
+                                    <a href="../html/chiTietBaiViet.html"><img src="../assets/trangChuImages/thirdNewsImage2.png" class="d-block w-100 image-content-1" alt="..."></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <img src="../assets/trangChuImages/thirdNewsImage.png" alt=""> -->
+                        <div class="third-news-title">
+                            <a href="../html/chiTietBaiViet.html">
+                                <h2 class="third-news-heading">
+                                    Cú đúp danh hiệu cho Nguyễn Xuân Son
+                                </h2>
+                            </a>
+                            <a href="../html/chiTietBaiViet.html">
+                                <p class="third-news-article">
+                                    Đúng với dự đoán, tiền đạo Nguyễn Xuân Son đã dễ dàng giành giải thưởng 
+                                    Ngoại binh Xuất sắc nhất giải đấu.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    
+            </div>
+
+            <div class="thoi-su-section container">
+                <div class="page-containerThoisu">
+                    <div class="headerThoisu">
+                        THỜI SỰ - XÃ HỘI
+                    </div>
+                    <div class="containerThoisu">
+                        <div class="leftColumnThoisu">
+                            <img class="mainImageThoisu" src="../assets/thutuongDenys.png" alt="Thu tuong Denys">
+                            <h2 class="articleTitleThoisu">Ukraine - Mỹ chốt thỏa thuận khoáng sản</h2>
+                            <p class="articleParagraphThoisu">Thu tuong Denys Shmyhal cho biet Ukraine va My da hoan tat ban cuoi du thao thoa thuan khoang san va du kien duoc chinh phu phe duyet hom nay. <br> <br> "Chúng tôi đã hoàn thiện bản cuối, hiện được gọi là Thỏa thuận Thiết lập quy tắc và điều kiện của Quỹ Đầu tư Tái thiết Ukraine."</p>
+                        </div>
+                        <div class="middleLineThoisu"></div>
+                        <div class="rightColumnThoisu">
+                            <div class="scrollableContentThoisu">
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg1.jpeg" data-title="Việt Nam tăng cường hợp tác kinh tế với Nhật Bản" data-paragraph="Trong bối cảnh kinh tế toàn cầu đầy thách thức, Việt Nam và Nhật Bản tiếp tục khẳng định mối quan hệ đối tác chiến lược sâu rộng thông qua việc tăng cường hợp tác kinh tế trên nhiều lĩnh vực. Các nhà lãnh đạo của cả hai quốc gia đã nhấn mạnh tầm quan trọng của việc duy trì chuỗi cung ứng ổn định và đa dạng hóa thị trường, đồng thời thúc đẩy các dự án đầu tư chung trong các ngành công nghiệp mũi nhọn.">
+                                    <h4 class="newsTitleThoisu">Việt Nam tăng cường hợp tác kinh tế với Nhật Bản</h4>
+                                    <p class="newsParagraphThoisu">Trong bối cảnh kinh tế toàn cầu đầy thách thức, Việt Nam và Nhật Bản tiếp tục khẳng định...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg1.jpeg" alt="News 1"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg2.jpg" data-title="Giá xăng dầu trong nước tiếp tục điều chỉnh tăng" data-paragraph="Theo thông báo mới nhất từ liên bộ Công Thương - Tài chính, giá xăng dầu trong nước sẽ có đợt điều chỉnh tăng từ ngày mai. Nguyên nhân chính được cho là do ảnh hưởng từ việc giá dầu thô thế giới liên tục tăng cao trong những phiên giao dịch gần đây. Người tiêu dùng được khuyến cáo nên có kế hoạch sử dụng nhiên liệu một cách hợp lý để giảm thiểu tác động từ việc tăng giá này.">
+                                    <h4 class="newsTitleThoisu">Giá xăng dầu trong nước tiếp tục điều chỉnh tăng</h4>
+                                    <p class="newsParagraphThoisu">Theo thông báo mới nhất từ liên bộ Công Thương - Tài chính, giá xăng dầu trong nước sẽ có đợt điều chỉnh...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg2-hover.png" alt="News 2"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg3.jpg" data-title="Hà Nội mở rộng không gian đi bộ quanh Hồ Gươm" data-paragraph="UBND thành phố Hà Nội vừa thông qua quyết định mở rộng không gian đi bộ quanh khu vực Hồ Gươm và phụ cận vào tất cả các ngày cuối tuần. Điều này nhằm tạo thêm không gian vui chơi, giải trí cho người dân và du khách, đồng thời thúc đẩy phát triển kinh tế đêm của Thủ đô. Dự kiến, không gian đi bộ mở rộng sẽ chính thức đi vào hoạt động từ tháng tới.">
+                                    <h4 class="newsTitleThoisu">Hà Nội mở rộng không gian đi bộ quanh Hồ Gươm</h4>
+                                    <p class="newsParagraphThoisu">UBND thành phố Hà Nội vừa thông qua quyết định mở rộng không gian đi bộ quanh khu vực Hồ Gươm...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg3-hover.jpg" alt="News 3"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg4.jpg" data-title="Đà Nẵng thu hút đầu tư công nghệ cao" data-paragraph="Với nhiều chính sách ưu đãi và cơ sở hạ tầng hiện đại, Đà Nẵng đang trở thành điểm đến hấp dẫn cho các nhà đầu tư trong lĩnh vực công nghệ cao. Nhiều tập đoàn lớn trên thế giới đã bày tỏ sự quan tâm và có kế hoạch đầu tư vào các khu công nghệ thông tin tập trung tại Đà Nẵng. Chính quyền thành phố cam kết sẽ tạo mọi điều kiện thuận lợi nhất để các dự án đầu tư được triển khai nhanh chóng và hiệu quả.">
+                                    <h4 class="newsTitleThoisu">Đà Nẵng thu hút đầu tư công nghệ cao</h4>
+                                    <p class="newsParagraphThoisu">Với nhiều chính sách ưu đãi và cơ sở hạ tầng hiện đại, Đà Nẵng đang trở thành điểm đến hấp dẫn...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg4-hover.jpg" alt="News 4"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg5.jpg" data-title="TP.HCM đẩy mạnh chuyển đổi số trong giáo dục" data-paragraph="Sở Giáo dục và Đào tạo TP.HCM công bố kế hoạch đẩy mạnh chuyển đổi số trong ngành giáo dục, nhằm nâng cao chất lượng dạy và học. Kế hoạch bao gồm việc trang bị hạ tầng công nghệ thông tin, phát triển phần mềm quản lý giáo dục, và đào tạo nâng cao năng lực ứng dụng công nghệ cho giáo viên. Mục tiêu là xây dựng một hệ thống giáo dục thông minh, hiện đại, đáp ứng yêu cầu của cuộc cách mạng công nghiệp 4.0.">
+                                    <h4 class="newsTitleThoisu">TP.HCM đẩy mạnh chuyển đổi số trong giáo dục</h4>
+                                    <p class="newsParagraphThoisu">Sở Giáo dục và Đào tạo TP.HCM công bố kế hoạch đẩy mạnh chuyển đổi số trong giáo dục...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg5-hover.webp" alt="News 5"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg6.png" data-title="Ngân hàng Nhà nước điều chỉnh lãi suất cơ bản" data-paragraph="Ngân hàng Nhà nước Việt Nam vừa có thông báo về việc điều chỉnh lãi suất cơ bản, có hiệu lực từ tuần tới. Quyết định này được đưa ra nhằm kiểm soát lạm phát và ổn định kinh tế vĩ mô trong bối cảnh thị trường tài chính có nhiều biến động. Các chuyên gia kinh tế nhận định, việc điều chỉnh lãi suất sẽ có tác động nhất định đến hoạt động sản xuất kinh doanh của doanh nghiệp và chi tiêu của người dân.">
+                                    <h4 class="newsTitleThoisu">Ngân hàng Nhà nước điều chỉnh lãi suất cơ bản</h4>
+                                    <p class="newsParagraphThoisu">Ngân hàng Nhà nước Việt Nam vừa có thông báo về việc điều chỉnh lãi suất cơ bản...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg6.png" alt="News 6"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg7.png" data-title="Xuất khẩu nông sản Việt Nam tăng trưởng mạnh" data-paragraph="Theo số liệu thống kê mới nhất, xuất khẩu nông sản của Việt Nam trong quý vừa qua đã ghi nhận mức tăng trưởng ấn tượng, với tổng giá trị đạt hàng tỷ đô la Mỹ. Các mặt hàng nông sản chủ lực như gạo, cà phê, thủy sản, và rau quả đều có mức tăng trưởng xuất khẩu đáng kể. Điều này cho thấy ngành nông nghiệp Việt Nam đang ngày càng khẳng định được vị thế trên thị trường quốc tế.">
+                                    <h4 class="newsTitleThoisu">Xuất khẩu nông sản Việt Nam tăng trưởng mạnh</h4>
+                                    <p class="newsParagraphThoisu">Theo số liệu thống kê mới nhất, xuất khẩu nông sản của Việt Nam trong quý vừa qua đã ghi nhận mức tăng trưởng...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg7.png" alt="News 7"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg8.png" data-title="Du lịch Việt Nam phục hồi ấn tượng sau đại dịch" data-paragraph="Ngành du lịch Việt Nam đang chứng kiến sự phục hồi mạnh mẽ sau thời gian dài bị ảnh hưởng bởi đại dịch, với số lượng khách du lịch quốc tế và nội địa tăng đột biến trong những tháng gần đây. Nhiều địa phương đã triển khai các chương trình kích cầu du lịch hấp dẫn, thu hút đông đảo du khách đến tham quan và nghỉ dưỡng.">
+                                    <h4 class="newsTitleThoisu">Du lịch Việt Nam phục hồi ấn tượng sau đại dịch</h4>
+                                    <p class="newsParagraphThoisu">Ngành du lịch Việt Nam đang chứng kiến sự phục hồi mạnh mẽ sau thời gian dài bị ảnh hưởng bởi đại dịch...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg8.png" alt="News 8"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg9.png" data-title="Chính phủ tiếp tục ưu tiên phát triển năng lượng tái tạo" data-paragraph="Trong phiên họp chính phủ thường kỳ, Thủ tướng nhấn mạnh sự ưu tiên phát triển năng lượng tái tạo, hướng tới mục tiêu giảm phát thải khí nhà kính và bảo vệ môi trường. Chính phủ sẽ tiếp tục ban hành các chính sách ưu đãi và hỗ trợ doanh nghiệp đầu tư vào lĩnh vực năng lượng tái tạo, đồng thời đẩy mạnh hợp tác quốc tế để tiếp cận công nghệ và nguồn vốn.">
+                                    <h4 class="newsTitleThoisu">Chính phủ tiếp tục ưu tiên phát triển năng lượng tái tạo</h4>
+                                    <p class="newsParagraphThoisu">Trong phiên họp chính phủ thường kỳ, Thủ tướng nhấn mạnh sự ưu tiên phát triển năng lượng tái tạo...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg9.png" alt="News 9"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg10.png" data-title="Doanh nghiệp nhỏ và vừa được hỗ trợ về vốn" data-paragraph="Chính phủ vừa ban hành nghị quyết mới về việc hỗ trợ doanh nghiệp nhỏ và vừa tiếp cận nguồn vốn ưu đãi, nhằm tháo gỡ khó khăn về tài chính và thúc đẩy phát triển sản xuất kinh doanh. Các gói hỗ trợ tín dụng với lãi suất ưu đãi sẽ được triển khai thông qua các ngân hàng thương mại, giúp doanh nghiệp có thêm nguồn lực để đầu tư và mở rộng hoạt động.">
+                                    <h4 class="newsTitleThoisu">Doanh nghiệp nhỏ và vừa được hỗ trợ về vốn</h4>
+                                    <p class="newsParagraphThoisu">Chính phủ vừa ban hành nghị quyết mới về việc hỗ trợ doanh nghiệp nhỏ và vừa tiếp cận nguồn vốn...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg10.png" alt="News 10"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg11.png" data-title="Giao thông thông minh được triển khai tại các đô thị lớn" data-paragraph="Bộ Giao thông Vận tải cho biết, dự án giao thông thông minh sẽ được triển khai đồng loạt tại các đô thị lớn như Hà Nội và TP.HCM. Dự án bao gồm việc lắp đặt hệ thống camera giám sát, cảm biến giao thông, và trung tâm điều hành thông minh, nhằm cải thiện năng lực quản lý giao thông, giảm ùn tắc, và nâng cao an toàn giao thông.">
+                                    <h4 class="newsTitleThoisu">Giao thông thông minh được triển khai tại các đô thị lớn</h4>
+                                    <p class="newsParagraphThoisu">Bộ Giao thông Vận tải cho biết, dự án giao thông thông minh sẽ được triển khai đồng loạt tại các đô thị lớn...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg11.png" alt="News 11"> </div>
+                                <div class="separatorLineThoisu"></div>
+                                <div class="newsItemThoisu" data-img="../assets/newsItemThoisuImg12.png" data-title="Thị trường bất động sản có dấu hiệu hạ nhiệt" data-paragraph="Sau một thời gian tăng trưởng nóng, thị trường bất động sản bắt đầu có dấu hiệu hạ nhiệt, với số lượng giao dịch giảm và giá cả có xu hướng ổn định hơn. Các chuyên gia dự báo, thị trường sẽ tiếp tục điều chỉnh trong thời gian tới, và nhà đầu tư nên thận trọng khi đưa ra quyết định đầu tư vào bất động sản ở giai đoạn này.">
+                                    <h4 class="newsTitleThoisu">Thị trường bất động sản có dấu hiệu hạ nhiệt</h4>
+                                    <p class="newsParagraphThoisu">Sau một thời gian tăng trưởng nóng, thị trường bất động sản bắt đầu có dấu hiệu hạ nhiệt...</p>
+                                    <img class="newsImageThoisu" src="../assets/newsItemThoisuImg12.png" alt="News 12"> </div>
+                            </div>
+                        </div>
+                         <div class="customScrollbarThoisu">
+                            <div class="scrollbarButtonThoisu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="khoa-hoc-cong-nghe container">
+                <div class="container-1320">
+                    <div class="container-left">
+                        <div class="content-left">
+                            <div class="left-title">
+                                <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù</p></a>
+                            </div>
+                            <div class="img-description">
+                                <div class="left-img">
+                                    <a href="./html/chiTietBaiViet.html"><img src="../assets/section3KhoaHocCongNgheImages/Ông Trương Huy San bị phạt 30 tháng tù.png"/></a>
+                                </div>
+                                <div class="left-description">
+                                    <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù về hành vi đăng 13 bài viết có "nội dung xâm phạm đến lợi ích của Nhà nước" trên Facebook Truong Huy San (Osin Huy Duc).</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-left">
+                            <div class="left-title">
+                                <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù</p></a>
+                            </div>
+                            <div class="img-description">
+                                <div class="left-img">
+                                    <a href="./html/chiTietBaiViet.html"><img src="../assets/section3KhoaHocCongNgheImages/Ông Trương Huy San bị phạt 30 tháng tù.png"/></a>
+                                </div>
+                                <div class="left-description">
+                                    <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù về hành vi đăng 13 bài viết có "nội dung xâm phạm đến lợi ích của Nhà nước" trên Facebook Truong Huy San (Osin Huy Duc).</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-left">
+                            <div class="left-title">
+                                <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù</p></a>
+                            </div>
+                            <div class="img-description">
+                                <div class="left-img">
+                                    <a href="./html/chiTietBaiViet.html"><img src="../assets/section3KhoaHocCongNgheImages/Ông Trương Huy San bị phạt 30 tháng tù.png"/></a>
+                                </div>
+                                <div class="left-description">
+                                    <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù về hành vi đăng 13 bài viết có "nội dung xâm phạm đến lợi ích của Nhà nước" trên Facebook Truong Huy San (Osin Huy Duc).</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-left">
+                            <div class="left-title">
+                                <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù</p></a>
+                            </div>
+                            <div class="img-description">
+                                <div class="left-img">
+                                    <a href="./html/chiTietBaiViet.html"><img src="../assets/section3KhoaHocCongNgheImages/Ông Trương Huy San bị phạt 30 tháng tù.png"/></a>
+                                </div>
+                                <div class="left-description">
+                                    <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù về hành vi đăng 13 bài viết có "nội dung xâm phạm đến lợi ích của Nhà nước" trên Facebook Truong Huy San (Osin Huy Duc).</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-left">
+                            <div class="left-title">
+                                <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù</p></a>
+                            </div>
+                            <div class="img-description">
+                                <div class="left-img">
+                                    <a href="./html/chiTietBaiViet.html"><img src="../assets/section3KhoaHocCongNgheImages/Ông Trương Huy San bị phạt 30 tháng tù.png"/></a>
+                                </div>
+                                <div class="left-description">
+                                    <a href="./html/chiTietBaiViet.html"><p>Ông Trương Huy San bị phạt 30 tháng tù về hành vi đăng 13 bài viết có "nội dung xâm phạm đến lợi ích của Nhà nước" trên Facebook Truong Huy San (Osin Huy Duc).</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div>
+                        <img src="../assets/section3KhoaHocCongNgheImages/dongKeOGiua.png" />
+                    </div>
+            
+                    <div class="container-right">
+                        <div class="container-right-heading">
+                            <div class="container-right-title">
+                                <h3 class="body-title-category">Khoa học & Công nghệ</h3>    
+                            </div>
+                            <div class="container-right-small-title">
+                                <p class="sub-menu-button">Tin tức</p>
+                                <p class="sub-menu-button">Tạp chí</p>
+                                <p class="sub-menu-button">Hoạt động</p>
+                            </div>
+                        </div>
+            
+                        <div class="container-right-image">
+                            <a href="../html/chiTietBaiViet.html">
+                                <img src="../assets/section3KhoaHocCongNgheImages/anhTrungQuocXayDung.png" />
+                                <img src="../assets/transparentPanel.png" alt="">
+                            </a>
+                            <div class="container-right-image-description">
+                                <a href="../html/chiTietBaiViet.html">
+                                    <p>Trung Quốc xây 'siêu phòng thí nghiệm' nghiên cứu vật chất"</p>
+                                </a>
+                            </div>
+                        </div>
+            
+                        <div class="container-right-card">
+                            <div class="container-right-card-content">
+                                <a href="../html/chiTietBaiViet.html">
+                                    <h3>Hầm chống tận thế nhận thêm 14.000 mẫu hạt giống mới</h3>
+                                </a>
+                                <a href="../html/chiTietBaiViet.html">
+                                    <p>Dự án thủy lợi Polavaram gồm hệ thống đập, kênh và nhà máy thủy điện đang được xây dựng...</p> 
+                                </a>
+                            </div>
+            
+                            <div class="container-right-card-content">
+                                <a href="../html/chiTietBaiViet.html">
+                                    <h3>Việt Nam khẩn trương hoàn thiện hạ tầng phục vụ dự án điện hạt nhân Ninh Thuận</h3>
+                                </a>
+                                <a href="../html/chiTietBaiViet.html">
+                                    <p>Theo Quy hoạch phát triển năng lượng nguyên tử đến năm 2030 Việt Nam đặt ...</p>
+                                </a>
+                            </div>
+            
+                            <div class="container-right-card-content right-card-last">
+                                <a href="../html/chiTietBaiViet.html">
+                                    <h3>Siêu dự án 3,5 tỷ USD giải quyết cả lũ lụt và hạn hán</h3>
+                                </a>
+                                <a href="../html/chiTietBaiViet.html">
+                                    <p>Dự án thủy lợi Polavaram gồm hệ thống đập, kênh và nhà máy thủy điện đang được xây dựng...</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="suc-khoe-section container">
+                
+                <div class="giai-tri-1-section-heading">
+                    <div class="giai-tri-1-section-title">
+                        <h3 class="body-title-category">Sức khỏe</h3>
+                    </div>
+                    <div class="giai-tri-1-section-sub-title">
+                        <p class="sub-menu-button">Dinh dưỡng</p>
+                        <p class="sub-menu-button">Làm đẹp</p>
+                        <p class="sub-menu-button">Y tế</p>
+                    </div>
+                </div>
+
+                <div class="content1 container">
+                    
+                    <!-- Hai bài viết đầu -->
+                    <div class="articles">
+                      <div class="article1">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/img/bacsiphauthuat.png" alt="Bài 1">
+                        </a>
+                        <div class="article-text">
+                          <a href="../html/chiTietBaiViet.html">
+                            <h3>Nguy kịch sau phá thai tại phòng khám tư</h3>
+                          </a>
+                          <a href="../html/chiTietBaiViet.html">
+                            <p>Người phụ nữ 35 tuổi chảy máu âm đạo ồ ạt, nguy kịch, sau phá thai 16 tuần tại phòng khám tư ở Hậu Giang, được bác sĩ kích hoạt báo động đỏ cứu sống.</p>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="article1">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/img/bacsiphauthuat.png" alt="Bài 2">
+                        </a>
+                        <div class="article-text">
+                          <a href="../html/chiTietBaiViet.html">
+                            <h3>Nguy kịch sau phá thai tại phòng khám tư</h3>
+                          </a>
+                          <a href="../html/chiTietBaiViet.html">
+                            <p>Người phụ nữ 35 tuổi chảy máu âm đạo ồ ạt, nguy kịch, sau phá thai 16 tuần tại phòng khám tư ở Hậu Giang, được bác sĩ kích hoạt báo động đỏ cứu sống.</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="divider"></div>
+                  
+                    <div class="container1">
+                      <!-- Card 1 -->
+                      <a href="../html/chiTietBaiViet.html">
+                        <div class="card1">
+                            <div class="card1-image"></div>
+                            <div class="card1-header">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</div>
+                            <div class="card1-content">
+                              <h3 class="card1-title">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</h3>
+                              <p class="card1-description">
+                                Lạm phát càng cao, chứng khoán càng giảm thì vàng càng tăng giá.
+                                Nên tăng tỷ lệ vàng trong danh mục khi đã nắm nhiều tài sản rủi ro.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                  
+                      <a href="../html/chiTietBaiViet.html">
+                        <div class="card1">
+                            <div class="card1-image"></div>
+                            <div class="card1-header">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</div>
+                            <div class="card1-content">
+                              <h3 class="card1-title">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</h3>
+                              <p class="card1-description">
+                                Lạm phát càng cao, chứng khoán càng giảm thì vàng càng tăng giá.
+                                Nên tăng tỷ lệ vàng trong danh mục khi đã nắm nhiều tài sản rủi ro.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                  
+                      <a href="../html/chiTietBaiViet.html">
+                        <div class="card1">
+                            <div class="card1-image"></div>
+                            <div class="card1-header">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</div>
+                            <div class="card1-content">
+                              <h3 class="card1-title">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</h3>
+                              <p class="card1-description">
+                                Lạm phát càng cao, chứng khoán càng giảm thì vàng càng tăng giá.
+                                Nên tăng tỷ lệ vàng trong danh mục khi đã nắm nhiều tài sản rủi ro.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                  
+                      <a href="../html/chiTietBaiViet.html">
+                        <div class="card1">
+                            <div class="card1-image"></div>
+                            <div class="card1-header">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</div>
+                            <div class="card1-content">
+                              <h3 class="card1-title">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</h3>
+                              <p class="card1-description">
+                                Lạm phát càng cao, chứng khoán càng giảm thì vàng càng tăng giá.
+                                Nên tăng tỷ lệ vàng trong danh mục khi đã nắm nhiều tài sản rủi ro.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                  
+                      <a href="../html/chiTietBaiViet.html">
+                        <div class="card1">
+                            <div class="card1-image"></div>
+                            <div class="card1-header">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</div>
+                            <div class="card1-content">
+                              <h3 class="card1-title">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</h3>
+                              <p class="card1-description">
+                                Lạm phát càng cao, chứng khoán càng giảm thì vàng càng tăng giá.
+                                Nên tăng tỷ lệ vàng trong danh mục khi đã nắm nhiều tài sản rủi ro.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                  
+                      <a href="../html/chiTietBaiViet.html">
+                        <div class="card1">
+                            <div class="card1-image"></div>
+                            <div class="card1-header">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</div>
+                            <div class="card1-content">
+                              <h3 class="card1-title">Nên giữ bao nhiêu vàng trong danh mục đầu tư?</h3>
+                              <p class="card1-description">
+                                Lạm phát càng cao, chứng khoán càng giảm thì vàng càng tăng giá.
+                                Nên tăng tỷ lệ vàng trong danh mục khi đã nắm nhiều tài sản rủi ro.
+                              </p>
+                            </div>
+                          </div>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="the-thao-section">
+
+                <img src="../assets/trangChuImages/theThaoSectionBackground.png" alt="" class="the-thao-red-background">
+
+                <div class="black-background-container container">
+                    <div class="black-background container">
+                        <div class="the-thao-section-container">
+                            <div class="the-thao-section-header-container">
+                                <h2 class="the-thao-section-header">THỂ THAO</h2>
+                                <h3 class="the-thao-section-sub-header">Tổng hợp tin tức nóng hổi nhất liên quan đến thể thao</h3>
+                                <div class="the-thao-red-line-container">
+                                    <img src="../assets/trangChuImages/theThaoSectionLine.png" alt="" class="the-thao-section-line">
+                                </div>     
+                            </div>
+
+                            <div class="the-thao-section-body-container">
+                                <div class="the-thao-side-articles">
+                                    <div class="the-thao-side-articles-heading">
+                                        <h3>Trận đấu mới nhất</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-1 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage1.png" alt="">
+                                        <h3>Alonso muốn tái hiện 'phép màu Istanbul' của Liverpool</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-2 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage2.png" alt="">
+                                        <h3>Alisson: 'Thắng PSG là trận hay nhất sự nghiệp'</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-3 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage3.png" alt="">
+                                        <h3>Người hùng Real châm chọc Simeone</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-4 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage4.png" alt="">
+                                        <h3>Arsenal thắng 7-1 ở Champions League</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-5 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage5.png" alt="">
+                                        <h3>'99% khán giả thích thể thức mới Champions League'</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-6 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage6.png" alt="">
+                                        <h3>Kane giúp Bayern rộng cửa vào tứ kết Champions League</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-7 the-thao-side-article">
+                                        <img src="../assets/trangChuImages/theThaoSideArticleImage7.png" alt="">
+                                        <h3>Van Persie dẫn dắt CLB dự Champions League</h3>
+                                    </div>
+
+                                    <div class="the-thao-side-article-xem-them">
+                                        <a href="../html/trangDanhMuc.html"><h3>Xem thêm</h3></a>
+                                        <a href="../html/trangDanhMuc.html"><i class="bi bi-arrow-right fs-3"></i></a>
+                                    </div>
+                                </div>
+
+                                <div class="the-thao-big-article">
+                                    <a href="../html/chiTietBaiViet.html">
+                                        <img src="../assets/trangChuImages/theThaoBigNews.png" alt="" class="the-thao-big-news">
+                                        <img src="../assets/transparentPanel.png" alt="" class="transparent-panel">
+                                    </a>
+                                    <a href="../html/chiTietBaiViet.html">
+                                        <h2 class="the-thao-big-news-title">Fernandes nghi ngờ chiến thuật của Amorim</h2>
+                                    </a>
+                                </div>
+
+                                <div class="the-thao-second-article-1 the-thao-section-article">
+                                    <img src="../assets/trangChuImages/theThaoSecondImage.png" alt="">
+                                    <img src="../assets/transparentPanel.png" alt="">
+                                    <h2 class="the-thao-section-article-2-heading the-thao-section-article-heading">
+                                        Sinner thuộc số 67 VĐV đạt thỏa thuận treo giò với WADA
+                                    </h2>
+                                    <div class="the-thao-section-article-1-sub the-thao-section-sub">
+                                        <p>
+                                            Cơ quan Chống doping Thế giới (WADA) cho biết họ không chỉ đạt thỏa thuận 
+                                            cấm thi đấu với tay vợt Jannik Sinner, mà đã làm điều đó với 66 VĐV khác.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="the-thao-second-article-2 the-thao-section-article">
+                                    <img src="../assets/trangChuImages/theThaoSecondImage2.png" alt="">
+                                    <img src="../assets/transparentPanel.png" alt="">
+                                    <h2 class="the-thao-section-article-2-heading the-thao-section-article-heading">
+                                        Lý Hoàng Nam thắng kịch tính, vô địch giải pickleball ở Bà Rịa-Vũng Tàu
+                                    </h2>
+                                    <div class="the-thao-section-article-2-sub the-thao-section-sub">
+                                        <p>
+                                            Lý Hoàng Nam cùng đồng đội Trịnh Linh Giang đã xuất sắc giành chức vô địch ở nội dung hấp dẫn nhất giải pickleball 
+                                            SS Arena diễn ra tại Bà Rịa-Vũng Tàu.
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="giai-tri-section container">
+
+                <div class="giai-tri-section-heading">
+                    <div class="giai-tri-section-title">
+                        <h3 class="body-title-category">Giải trí</h3>
+                    </div>
+                    <div class="giai-tri-section-sub-title">
+                        <p class="sub-menu-button">Âm nhạc</p>
+                        <p class="sub-menu-button">Thời trang</p>
+                        <p class="sub-menu-button">Điện ảnh - Truyền hình</p>
+                    </div>
+                </div>
+
+                <div class="giai-tri-item-1 shadow-hover scale-hover cursor-pointer">
+                    <div class="giai-tri-item-1-container-img">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-item-1-article">
+                        <a href="../html/chiTietBaiViet.html">
+                            <h3>Hai cháu gái Công nương Diana thu hút nhờ mặc đẹp</h3>
+                        </a>
+                        <a href="../html/chiTietBaiViet.html">
+                            <p>
+                                Chị em song sinh Amelia và Eliza Spencer - 
+                                cháu gái của Công nương Diana - 
+                                ghi điểm bằng gu mặc sang trọng.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="giai-tri-item-2 shadow-hover scale-hover cursor-pointer">
+                    <a href="../html/chiTietBaiViet.html">
+                        <img src="../assets/trangChuImages/giaiTriImage2.png" alt="">
+                        <img src="../assets/transparentPanel.png" alt="" class="">
+                    </a>
+                    <a href="../html/chiTietBaiViet.html">
+                        <h2 class="transparent-text">Captain America 4 - kịch bản 'đầu voi, đuôi chuột'</h2>
+                    </a>
+                </div>
+
+                <div class="giai-tri-item-3 shadow-hover cursor-pointer">
+                    <div class="giai-tri-item-3-container">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-item-3-article">
+                        <a href="../html/chiTietBaiViet.html">
+                            <h3>Vương Tổ Hiền gây chú ý sau 20 năm sống ẩn dật</h3>
+                        </a>
+                        <a href="../html/chiTietBaiViet.html">
+                            <p>
+                                Vương Tổ Hiền - minh tinh hàng đầu Hong Kong thập niên 1990 - 
+                                đăng video cuộc sống sau hơn 20 năm vắng bóng.
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="giai-tri-item-4 shadow-hover scale-hover cursor-pointer">
+                    <div class="giai-tri-item-4-container">
+                        <img src="../assets/trangChuImages/giaiTriImage4.png" alt="">
+                    </div>
+                    <div class="giai-tri-item-4-article">
+                        <h3>'Dune 2' đứng trước cơ hội thắng Hiệu ứng xuất sắc Oscar 2025</h3>
+                        <p>
+                            "Dune: Part Two" là ứng cử viên kỹ xảo nổi bật tại Oscar 2025, đối đầu "Kingdom of the Planet of the Apes".
+                        </p>
+                    </div>
+                </div>
+
+                <div class="giai-tri-item-5 shadow-hover scale-hover cursor-pointer">
+                    <a href="../html/chiTietBaiViet.html">
+                        <img src="../assets/trangChuImages/giaiTriImage5.png" alt="">
+                        <img src="../assets/transparentPanel.png" alt="" class="">
+                    </a>
+                    <a href="../html/chiTietBaiViet.html">
+                        <h2 class="transparent-text-1">Lisa ám ảnh vì người lạ đeo bám</h2>
+                    </a>
+                </div>
+
+                <div class="giai-tri-item-6 shadow-hover scale-hover cursor-pointer">
+                    <a href="../html/chiTietBaiViet.html">
+                        <img src="../assets/trangChuImages/giaiTriImage5.png" alt="">
+                        <img src="../assets/transparentPanel.png" alt="" class="">
+                    </a>
+                    <a href="../html/chiTietBaiViet.html">
+                        <h2 class="transparent-text-1">Lisa ám ảnh vì người lạ đeo bám</h2>
+                    </a>
+                </div>
+
+                <div class="giai-tri-the-be-1 giai-tri-the-be shadow-hover cursor-pointer">
+                    <div class="giai-tri-item-small-container-img">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-the-be-1-article giai-tri-the-be-article">
+                        <h3>Hai cháu gái Công nương Diana thu hút nhờ mặc đẹp</h3>
+
+                    </div>
+                </div>
+
+                <div class="giai-tri-the-be-2 giai-tri-the-be shadow-hover scale-hover cursor-pointer">
+                    <div class="giai-tri-item-small-container-img">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-the-be-1-article giai-tri-the-be-article">
+                        <h3>Hai cháu gái Công nương Diana thu hút nhờ mặc đẹp</h3>
+
+                    </div>
+                </div>
+
+                <div class="giai-tri-the-be-3 giai-tri-the-be shadow-hover scale-hover cursor-pointer">
+                    <div class="giai-tri-item-small-container-img">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-the-be-1-article giai-tri-the-be-article">
+                        <h3>Hai cháu gái Công nương Diana thu hút nhờ mặc đẹp</h3>
+   
+                    </div>
+                </div>
+
+                <div class="giai-tri-the-be-4 giai-tri-the-be shadow-hover scale-hover cursor-pointer">
+                    <div class="giai-tri-item-small-container-img">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-the-be-1-article giai-tri-the-be-article">
+                        <h3>Hai cháu gái Công nương Diana thu hút nhờ mặc đẹp</h3>
+
+                    </div>
+                </div>
+
+                <div class="giai-tri-the-be-5 giai-tri-the-be shadow-hover scale-hover cursor-pointer">
+                    <div class="giai-tri-item-small-container-img">
+                        <a href="../html/chiTietBaiViet.html">
+                            <img src="../assets/trangChuImages/giaiTriImage1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="giai-tri-the-be-1-article giai-tri-the-be-article">
+                        <h3>Hai cháu gái Công nương Diana thu hút nhờ mặc đẹp</h3>
+   
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="giao-duc-section container" style="margin-top: 70px">
+                <div class="edu-section">
+                    <div class="edu-section-heading">
+                        <div class="edu-section-title">
+                            <h3 class="body-title-category">Giáo dục</h3>
+                        </div>
+                        <div class="edu-section-sub-title">
+                            <p class="sub-menu-button">Thi cử</p>
+                            <p class="sub-menu-button">Đào tạo</p>
+                            <p class="sub-menu-button">Học bổng - Du học</p>
+                        </div>
+                    </div>
+            
+                    <div class="edu-main-content">
+                        <div class="edu-item-1">
+                            <img src="../assets/img/dulich.png" alt="Hình ảnh bài viết chính">
+                            <div class="edu-item-1-article">
+                                <h3>Khách Việt muốn du lịch Triều Tiên phải ghé Trung Quốc 5 ngày</h3>
+                                <p>Triều Tiên chưa mở cửa du lịch như trước dịch nên khách Việt muốn đi tour phải chấp nhận ở Trung Quốc 5 ngày, không được vào Bình Nhưỡng.</p>
+                            </div>
+                        </div>
+            
+                        <div class="right-container">
+                            <div class="edu-item-2">
+                                <img src="../assets/img/kichcau.png" alt="Hình ảnh bài viết">
+                                <h3>Giảm giá nhiều dịch vụ tới 50% để kích cầu du lịch 2025</h3>
+                            </div>
+                            <div class="edu-item-2">
+                                <img src="../assets/img/cangio.png" alt="Hình ảnh bài viết">
+                                <h3>Định hướng Cần Giờ thành khu du lịch quốc gia</h3>
+                            </div>
+                        </div>
+            
+                        <div class="extra-container">
+                            <div class="edu-item-3">
+                                <img src="../assets/img/chua.png" alt="Hình ảnh bài viết">
+                                <h3>48 giờ vàng cảnh chùa ở Bắc Giang</h3>
+                            </div>
+                            <div class="edu-item-3">
+                                <img src="../assets/img/chua.png" alt="Hình ảnh bài viết">
+                                <h3>48 giờ vàng cảnh chùa ở Bắc Giang</h3>
+                            </div>
+                            <div class="edu-item-3">
+                                <img src="../assets/img/chua.png" alt="Hình ảnh bài viết">
+                                <h3>48 giờ vàng cảnh chùa ở Bắc Giang</h3>
+                            </div>
+                            <div class="edu-item-3">
+                                <img src="../assets/img/chua.png" alt="Hình ảnh bài viết">
+                                <h3>48 giờ vàng cảnh chùa ở Bắc Giang</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-page">
+                <div class="footer-tren">
+                    <div class="footer-tren-slogan">
+                        <h3>Tin nhanh,</h3>
+                        <h3>Góc nhìn sâu,</h3>
+                        <h3>Cập nhật thế giới cùng bạn!</h3>
+                    </div>
+
+                    <div class="footer-tren-contacts">
+                        <h3>Về chúng tôi</h3>
+                        <div class="social-links">
+                            <i class="bi bi-facebook fs-1"></i>
+                            <i class="bi bi-instagram fs-1"></i>
+                            <i class="bi bi-youtube fs-1"></i>
+                            <i class="bi bi-twitter-x fs-1"></i>
+                            <i class="bi bi-threads-fill fs-1"></i>
+                            <i class="bi bi-tiktok fs-1"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-duoi">
+                    <div class="under-text">
+                        <h3>@ 2025 E22CN02-B PTIT</h3>
+                    </div>
+                    <img src="../assets/navbarLogo.png" alt="">
+                    <div class="under-text">
+                        <a target="_blank" href="https://www.google.com/maps/place/Center+for+International+Education+-+PTIT/@20.9806069,105.7847042,17z/data=!4m6!3m5!1s0x3135ad90e2a1549d:0x29a19ed11e54f2b6!8m2!3d20.9806019!4d105.7872791!16s%2Fg%2F11jnxrzfq1?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D">
+                            <h3>20.9808, 105.7874</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="../js/navbar.js" defer></script>
+        <script src="../js/homePage.js"></script>
+        <script src="../js/scriptTrangchuThoisu.js"></script>
+        <script src="../js/pageWorkFlow.js"></script>
+    </body>
+
+</html>

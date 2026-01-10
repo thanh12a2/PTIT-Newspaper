@@ -1,0 +1,257 @@
+span {
+  padding: 0;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: lighter;
+  justify-content: flex-start;
+}
+
+.header1 .menu1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  gap:25px;
+}
+
+.header1 .menu1 span {
+  position: relative;
+}
+
+.header1 .menu1 .active1 {
+  width: 135px;
+  height: 46px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0%;
+  border-bottom: 5px solid #B32A45;
+}
+
+/* .header1 .menu1 .active1::after {  
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 135px;
+  height: 6px;
+  top: 44px;
+  letter-spacing: 0%;
+
+  background-color: rgba(179, 42, 69, 1);
+} */
+
+.menu1 p {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  padding: 0;
+}
+.articles {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: space-between;
+  width: 100%;
+}
+.article1 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  width: 650px;
+  height: 200px;
+  top: 2976px;
+  left: 126px;
+
+}
+
+.article1 a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.article1 img {
+  height: 100%;
+  width: 245px;
+}
+.article-text {
+  flex: 1;
+  padding-bottom: 20px;
+  height: 200px;
+  padding: 10px;
+  padding-top: 0px;
+}
+.article1 h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  color:  rgba(0, 0, 0, 1);
+}
+
+.article-text h3:hover {
+  color: #B32A45;
+}
+
+.article1 p:hover {
+  color: #B32A45;
+}
+
+.article1 p {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(77, 77, 77, 1);
+}
+.divider {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #9f9f9f77;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px ;
+}
+
+.card1 {
+  position: relative;
+  width: 420px;
+
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+/* Ảnh bài viết */
+.card1-image {
+  width: 100%;
+  height: 227px;
+  background-image: url('../assets/img/vang.png'); 
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+/* Khi hover, ảnh phóng to */
+.card1:hover .card1-image {
+  transform: scale(1.1);
+}
+
+/* Tiêu đề trên ảnh */
+.card1-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.096) 100%);
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 145%;
+  transition: opacity 0.3s ease-in-out;
+  transform: box-shadow 0.3s ease-in-out;
+}
+
+.card1:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Khi hover, tiêu đề biến mất */
+.card1:hover .card1-header {
+  opacity: 0;
+}
+
+/* Nội dung (bao gồm cả tiêu đề và đoạn văn) */
+.card1-content {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 227px;
+  padding: 15px;
+  background: #8B1E2D; /* Màu đỏ */
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  transform: translateY(100%);
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease;
+  opacity: 0;
+  padding: 20px 20px;
+}
+
+/* Khi hover, ô màu đỏ hiện lên */
+.card1:hover .card1-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card1-title {
+  font-size: 24px;
+  margin-bottom: 10px ;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+
+.card1-description {
+  font-size: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+  letter-spacing: 0%;
+  color: #E8E8E8;
+}
+
+@media (max-width: 1400px) {
+
+  
+
+  .card1 {
+    width: 550px;
+  }
+
+  .container1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+      margin-top: 20px;
+  }
+}
