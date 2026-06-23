@@ -13,7 +13,6 @@
 
 🌐 **[Xem Demo Online](http://theptitnewspaper.kesug.com/)** &nbsp;|&nbsp; 🎨 **[Thiết kế Figma](https://www.figma.com/design/xucNIw1ZdVkL1Jo1APhKiJ/BTL_Web_Design?node-id=754-17&t=cbnL2WnRwkit4u1y-1)** &nbsp;|&nbsp; 📄 **[Báo cáo Final (PDF)](https://github.com/thanh12a2/PTIT-Newspaper/blob/main/B%C3%A1o%20c%C3%A1o%20final.pdf)**
 
-</div>
 
 ---
 
@@ -473,34 +472,4 @@ npx serve .
 
 ---
 
-## 7. Thành viên nhóm
 
-<div align="center">
-
-| STT | Họ và Tên | Vai trò |
-|:---:|-----------|---------|
-| 1 | Thành viên 1 | Frontend Developer |
-| 2 | Thành viên 2 | Frontend Developer |
-| 3 | Thành viên 3 | Frontend Developer |
-| 4 | Thành viên 4 | Frontend Developer |
-
-**Lớp:** E22CN02-B — **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
-
-</div>
-
----
-
-## 8. Giấy phép
-
-Dự án được phát triển phục vụ mục đích học tập tại **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**.
-
----
-
-<div align="center">
-
-**⭐ Nếu bạn thấy dự án hữu ích, hãy cho chúng tôi một Star trên GitHub! ⭐**
-
-*© 2025 E22CN02-B PTIT — Tin nhanh, Góc nhìn sâu, Cập nhật thế giới cùng bạn!*
-
-</div>
-]]>
