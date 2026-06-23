@@ -38,8 +38,7 @@
   - [4.6. Hệ thống xác thực người dùng](#46-hệ-thống-xác-thực-người-dùng)
 - [5. Hướng dẫn cài đặt & chạy dự án](#5-hướng-dẫn-cài-đặt--chạy-dự-án)
 - [6. Tài liệu & Liên kết](#6-tài-liệu--liên-kết)
-- [7. Thành viên nhóm](#7-thành-viên-nhóm)
-- [8. Giấy phép](#8-giấy-phép)
+
 
 ---
 
